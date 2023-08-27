@@ -5,26 +5,6 @@ Dataset used is combined from Github and Kaggle - X-Ray images of lungs have bee
 
 Model Summary:
 Model: "sequential"
-_________________________________________________________________
- Layer (type)                Output Shape              Param #   
-=================================================================
- Conv2D_1 (Conv2D)           (None, 150, 150, 32)      896                                                                       
- Conv2D_2 (Conv2D)           (None, 148, 148, 32)      9248                                                                  
- Maxpool_1 (MaxPooling2D)    (None, 74, 74, 32)        0                                                                    
- dropout (Dropout)           (None, 74, 74, 32)        0                                                                    
- Conv2D_3 (Conv2D)           (None, 74, 74, 64)        18496                                                                  
- Conv2D_4 (Conv2D)           (None, 72, 72, 64)        36928                                                                 
- Maxpool_2 (MaxPooling2D)    (None, 36, 36, 64)        0                                                                     
- dropout_1 (Dropout)         (None, 36, 36, 64)        0                                                                   
- Conv2D_5 (Conv2D)           (None, 36, 36, 128)       73856                                                                
- Conv2D_6 (Conv2D)           (None, 34, 34, 128)       147584                                                                  
- Maxpool_3 (MaxPooling2D)    (None, 17, 17, 128)       0                                                                       
- flatten (Flatten)           (None, 36992)             0                                                                     
- Dense_1 (Dense)             (None, 512)               18940416                                                               
- dropout_2 (Dropout)         (None, 512)               0                                                                       
- Dense_2 (Dense)             (None, 128)               65664                                                                    
- Output (Dense)              (None, 2)                 258                                                                     
-=================================================================
 Total params: 19,293,346
 Trainable params: 19,293,346
 Non-trainable params: 0
