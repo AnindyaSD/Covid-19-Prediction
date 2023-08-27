@@ -8,9 +8,7 @@ Dataset used is combined from Github and Kaggle - X-Ray images of lungs have bee
 
 Model Summary:
 Model: "sequential"
-_________________________________________________________________
- Layer (type)                Output Shape              Param #   
-=================================================================
+
  Conv2D_1 (Conv2D)           (None, 150, 150, 32)      896                                                                      
  Conv2D_2 (Conv2D)           (None, 148, 148, 32)      9248                                                                  
  Maxpool_1 (MaxPooling2D)    (None, 74, 74, 32)        0                                                                       
@@ -27,6 +25,7 @@ _________________________________________________________________
  dropout_2 (Dropout)         (None, 512)               0                                                                         
  Dense_2 (Dense)             (None, 128)               65664                                                                    
  Output (Dense)              (None, 2)                 258
+	
 Total params: 19,293,346
 Trainable params: 19,293,346
 Non-trainable params: 0
