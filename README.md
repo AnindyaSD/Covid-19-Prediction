@@ -8,6 +8,8 @@ Dataset used is combined from Github and Kaggle - X-Ray images of lungs have bee
 
 150 x 150 sized images.
 
+(Dataset is too large to be uploaded)
+
 Model Summary:
 Model: "sequential"
 	
